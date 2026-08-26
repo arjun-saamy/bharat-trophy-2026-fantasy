@@ -15,7 +15,7 @@ import {
 import { useToast } from '@/hooks/use-toast';
 import { queryClient } from '@/lib/queryClient';
 import { cn } from '@/lib/utils';
-import { adminRequest, usePlayers, useSettings, useEntries } from '@/lib/league';
+import { adminRequest, usePlayers, useSettings, useAdminEntries } from '@/lib/league';
 import { playerPoints } from '@shared/schema';
 import type { Player, PublicSettings } from '@shared/schema';
 
@@ -49,7 +49,7 @@ function PinGate({ onUnlock }: { onUnlock: (pin: string) => void }) {
       return res.json();
     },
     onSuccess: () => onUnlock(pin),
-    onError: () => setError('That PIN does not match. Default is bharat26.'),
+    onError: () => setError('That PIN does not match.'),
   });
 
   return (
@@ -58,6 +58,7 @@ function PinGate({ onUnlock }: { onUnlock: (pin: string) => void }) {
       <h1 className="font-display text-lg font-semibold">Organiser access</h1>
       <p className="mt-1.5 text-sm text-muted-foreground">
         Prices, stats and settings are behind a PIN so participants cannot edit the league.
+        Ask your event organiser for the PIN if you don't have it.
       </p>
       <form
         className="mt-4 space-y-3"
@@ -413,8 +414,17 @@ function StatsTab({
   );
 }
 
-function SettingsTab({ pin, settings }: { pin: string; settings: PublicSettings }) {
+function SettingsTab({
+  pin,
+  settings,
+  onPinChanged,
+}: {
+  pin: string;
+  settings: PublicSettings;
+  onPinChanged: (pin: string) => void;
+}) {
   const [form, setForm] = useState<Record<string, number>>({});
+  const [newPin, setNewPin] = useState('');
   const { toast } = useToast();
   const value = (k: keyof PublicSettings) => form[k] ?? (settings[k] as number);
 
@@ -430,6 +440,20 @@ function SettingsTab({ pin, settings }: { pin: string; settings: PublicSettings 
     },
     onError: (e: Error) =>
       toast({ title: 'Save failed', description: e.message, variant: 'destructive' }),
+  });
+
+  const savePin = useMutation({
+    mutationFn: async () => {
+      const res = await adminRequest('PATCH', '/api/admin/settings', pin, { adminPin: newPin });
+      return res.json();
+    },
+    onSuccess: () => {
+      onPinChanged(newPin);
+      setNewPin('');
+      toast({ title: 'Admin PIN changed', description: 'Use the new PIN next time you unlock this panel.' });
+    },
+    onError: (e: Error) =>
+      toast({ title: 'Could not change PIN', description: e.message, variant: 'destructive' }),
   });
 
   const groups: Array<[string, Array<[keyof PublicSettings, string]>]> = [
@@ -490,17 +514,47 @@ function SettingsTab({ pin, settings }: { pin: string; settings: PublicSettings 
         <Save className="mr-1.5 h-4 w-4" />
         {save.isPending ? 'Saving…' : 'Save settings'}
       </Button>
+
+      <div className="rounded-lg border border-card-border bg-card p-4">
+        <h3 className="mb-1 text-sm font-semibold">Security</h3>
+        <p className="mb-3 text-xs text-muted-foreground">
+          Change the organiser PIN away from the shared default before the tournament goes live.
+          Anyone with the PIN can edit prices, stats, settings and delete entries.
+        </p>
+        <div className="flex flex-wrap items-end gap-3">
+          <label className="space-y-1.5">
+            <span className="block text-xs text-muted-foreground">New admin PIN</span>
+            <Input
+              type="text"
+              value={newPin}
+              onChange={(e) => setNewPin(e.target.value)}
+              placeholder="At least 4 characters"
+              className="h-9 w-56"
+              data-testid="input-new-pin"
+            />
+          </label>
+          <Button
+            variant="outline"
+            onClick={() => savePin.mutate()}
+            disabled={newPin.trim().length < 4 || savePin.isPending}
+            data-testid="button-save-pin"
+          >
+            {savePin.isPending ? 'Changing…' : 'Change PIN'}
+          </Button>
+        </div>
+      </div>
     </div>
   );
 }
 
 function EntriesTab({ pin, players }: { pin: string; players: Player[] }) {
-  const { data: entries } = useEntries();
+  const { data: entries } = useAdminEntries(pin);
   const { toast } = useToast();
   const del = useMutation({
     mutationFn: async (id: number) => adminRequest('DELETE', `/api/admin/entries/${id}`, pin),
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ['/api/entries'] });
+      queryClient.invalidateQueries({ queryKey: ['/api/admin/entries'] });
       toast({ title: 'Entry removed' });
     },
   });
@@ -617,7 +671,7 @@ export default function AdminPage() {
           <StatsTab pin={pin} players={players} settings={settings} />
         </TabsContent>
         <TabsContent value="settings" className="mt-4">
-          <SettingsTab pin={pin} settings={settings} />
+          <SettingsTab pin={pin} settings={settings} onPinChanged={setPin} />
         </TabsContent>
         <TabsContent value="entries" className="mt-4">
           <EntriesTab pin={pin} players={players} />

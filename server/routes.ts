@@ -9,7 +9,28 @@ import {
 } from '@shared/schema';
 
 export async function registerRoutes(httpServer: Server, app: Express): Promise<Server> {
+  // Minimal in-memory brute-force guard for the admin PIN. Not distributed-safe,
+  // but enough to stop naive guessing against a single-instance deployment.
+  const WINDOW_MS = 10 * 60 * 1000;
+  const MAX_ATTEMPTS = 20;
+  const attempts = new Map<string, { count: number; resetAt: number }>();
+  function checkRateLimit(key: string): boolean {
+    const now = Date.now();
+    const rec = attempts.get(key);
+    if (!rec || now > rec.resetAt) {
+      attempts.set(key, { count: 1, resetAt: now + WINDOW_MS });
+      return true;
+    }
+    if (rec.count >= MAX_ATTEMPTS) return false;
+    rec.count += 1;
+    return true;
+  }
+
   async function requireAdmin(req: Request, res: Response, next: NextFunction) {
+    const key = req.ip ?? 'unknown';
+    if (!checkRateLimit(key)) {
+      return res.status(429).json({ error: 'Too many attempts. Try again later.' });
+    }
     const s = await storage.getSettings();
     const pin = req.header('x-admin-pin');
     if (!pin || pin !== s.adminPin) return res.status(401).json({ error: 'Invalid admin PIN' });
@@ -26,7 +47,9 @@ export async function registerRoutes(httpServer: Server, app: Express): Promise<
   });
 
   app.get('/api/entries', async (_req, res) => {
-    res.json(await storage.listEntries());
+    // Public endpoint: never expose entrant contact details (email/phone).
+    const rows = await storage.listEntries();
+    res.json(rows.map(({ contact: _contact, ...rest }) => rest));
   });
 
   app.post('/api/entries', async (req, res) => {
@@ -57,6 +80,10 @@ export async function registerRoutes(httpServer: Server, app: Express): Promise<
   });
 
   app.post('/api/admin/login', async (req, res) => {
+    const key = req.ip ?? 'unknown';
+    if (!checkRateLimit(key)) {
+      return res.status(429).json({ error: 'Too many attempts. Try again later.' });
+    }
     const s = await storage.getSettings();
     if (req.body?.pin !== s.adminPin) return res.status(401).json({ error: 'Invalid admin PIN' });
     res.json({ ok: true });
@@ -75,6 +102,11 @@ export async function registerRoutes(httpServer: Server, app: Express): Promise<
     const s = await storage.updateSettings(parsed.data);
     const { adminPin: _pin, ...rest } = s;
     res.json(rest);
+  });
+
+  app.get('/api/admin/entries', requireAdmin, async (_req, res) => {
+    // Authenticated route: organiser needs full entry details including contact info.
+    res.json(await storage.listEntries());
   });
 
   app.delete('/api/admin/entries/:id', requireAdmin, async (req, res) => {

@@ -51,7 +51,7 @@ export const settings = sqliteTable('settings', {
   ptsGame: integer('pts_game').notNull().default(1),
   ptsTeamWin: integer('pts_team_win').notNull().default(2),
   ptsSpirit: integer('pts_spirit').notNull().default(5),
-  adminPin: text('admin_pin').notNull().default('bharat26'),
+  adminPin: text('admin_pin').notNull().default('trophy26x9'),
 });
 
 export const insertEntrySchema = createInsertSchema(entries).omit({
@@ -96,6 +96,7 @@ export const updateSettingsSchema = z.object({
   ptsGame: z.number().optional(),
   ptsTeamWin: z.number().optional(),
   ptsSpirit: z.number().optional(),
+  adminPin: z.string().min(4).max(40).optional(),
 });
 
 export type Player = typeof players.$inferSelect;

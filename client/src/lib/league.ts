@@ -12,6 +12,18 @@ export function useEntries() {
   return useQuery<Entry[]>({ queryKey: ['/api/entries'] });
 }
 
+/** Admin-only: full entries including contact info, gated by the admin PIN. */
+export function useAdminEntries(pin: string) {
+  return useQuery<Entry[]>({
+    queryKey: ['/api/admin/entries', pin],
+    queryFn: async () => {
+      const res = await adminRequest('GET', '/api/admin/entries', pin);
+      return res.json();
+    },
+    enabled: Boolean(pin),
+  });
+}
+
 export async function adminRequest(
   method: string,
   url: string,

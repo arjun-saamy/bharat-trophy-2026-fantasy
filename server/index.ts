@@ -50,7 +50,9 @@ app.use((req, res, next) => {
     const duration = Date.now() - start;
     if (path.startsWith("/api")) {
       let logLine = `${req.method} ${path} ${res.statusCode} in ${duration}ms`;
-      if (capturedJsonResponse) {
+      // Don't log entrant contact details or admin credentials/payloads.
+      const sensitive = path.startsWith('/api/entries') || path.startsWith('/api/admin');
+      if (capturedJsonResponse && !sensitive) {
         logLine += ` :: ${JSON.stringify(capturedJsonResponse)}`;
       }
 
