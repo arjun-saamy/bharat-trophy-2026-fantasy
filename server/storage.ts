@@ -3,9 +3,7 @@ import type { Player, Entry, Settings, SubmitEntry } from '@shared/schema';
 import { drizzle } from 'drizzle-orm/better-sqlite3';
 import Database from 'better-sqlite3';
 import { eq, sql } from 'drizzle-orm';
-import { readFileSync } from 'node:fs';
-import { fileURLToPath } from 'node:url';
-import { dirname, join } from 'node:path';
+import seedPlayers from './seed-players.json';
 
 const sqlite = new Database('data.db');
 sqlite.pragma('journal_mode = WAL');
@@ -51,14 +49,7 @@ type Seed = {
 function seed() {
   const row = db.select({ n: sql<number>`count(*)` }).from(players).get();
   if (!row || row.n === 0) {
-    const here = dirname(fileURLToPath(import.meta.url));
-    let raw: string;
-    try {
-      raw = readFileSync(join(here, 'seed-players.json'), 'utf8');
-    } catch {
-      raw = readFileSync(join(process.cwd(), 'server', 'seed-players.json'), 'utf8');
-    }
-    const list = JSON.parse(raw) as Seed[];
+    const list = seedPlayers as Seed[];
     // Default: everyone at 14 credits, so 7 x 14 = 98 of the 100 budget. Set real prices in the organiser panel.
     const insert = db.insert(players);
     for (const p of list) {
