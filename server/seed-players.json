@@ -1,0 +1,2562 @@
+[
+{
+"id": 5169,
+"name": "Amanpreet Kaur",
+"team": "Delhi",
+"teamCode": "DL",
+"jersey": 10,
+"matchUp": "F",
+"city": "New Delhi",
+"role": "DFLT"
+},
+{
+"id": 2009,
+"name": "Ankit lakra",
+"team": "Delhi",
+"teamCode": "DL",
+"jersey": 10,
+"matchUp": "M",
+"city": "DELHI",
+"role": "DFLT"
+},
+{
+"id": 3079,
+"name": "Ashish Kumar",
+"team": "Delhi",
+"teamCode": "DL",
+"jersey": 47,
+"matchUp": "M",
+"city": "Delhi",
+"role": "DFLT"
+},
+{
+"id": 4384,
+"name": "Benoy Stephen",
+"team": "Delhi",
+"teamCode": "DL",
+"jersey": null,
+"matchUp": "M",
+"city": "Delhi",
+"role": "DFLT"
+},
+{
+"id": 4294,
+"name": "Dikshita",
+"team": "Delhi",
+"teamCode": "DL",
+"jersey": 8,
+"matchUp": "F",
+"city": "Delhi",
+"role": "DFLT"
+},
+{
+"id": 3247,
+"name": "Hempushpa Kumari",
+"team": "Delhi",
+"teamCode": "DL",
+"jersey": null,
+"matchUp": "F",
+"city": "Delhi",
+"role": "DFLT"
+},
+{
+"id": 2255,
+"name": "Kalpana Bisht",
+"team": "Delhi",
+"teamCode": "DL",
+"jersey": 23,
+"matchUp": "F",
+"city": "Delhi",
+"role": "DFLT"
+},
+{
+"id": 2900,
+"name": "Kat Shepherd",
+"team": "Delhi",
+"teamCode": "DL",
+"jersey": 40,
+"matchUp": "F",
+"city": "Delhi",
+"role": "DFLT"
+},
+{
+"id": 3464,
+"name": "Khushboo Khatoon",
+"team": "Delhi",
+"teamCode": "DL",
+"jersey": 12,
+"matchUp": "F",
+"city": "New Delhi ",
+"role": "DFLT"
+},
+{
+"id": 3080,
+"name": "Kunal Kanojiya",
+"team": "Delhi",
+"teamCode": "DL",
+"jersey": 28,
+"matchUp": "M",
+"city": "Delhi",
+"role": "DFLT"
+},
+{
+"id": 2352,
+"name": "Manjeet Singh",
+"team": "Delhi",
+"teamCode": "DL",
+"jersey": 12,
+"matchUp": "M",
+"city": "Delhi",
+"role": "DFLT"
+},
+{
+"id": 3479,
+"name": "Mansi ..",
+"team": "Delhi",
+"teamCode": "DL",
+"jersey": 16,
+"matchUp": "F",
+"city": "Delhi",
+"role": "DFLT"
+},
+{
+"id": 2368,
+"name": "Megha Rawat",
+"team": "Delhi",
+"teamCode": "DL",
+"jersey": 5,
+"matchUp": "F",
+"city": "Delhi",
+"role": "DFLT"
+},
+{
+"id": 4449,
+"name": "Nargis",
+"team": "Delhi",
+"teamCode": "DL",
+"jersey": 77,
+"matchUp": "F",
+"city": "Delhi",
+"role": "DFLT"
+},
+{
+"id": 2452,
+"name": "Om Gandhi",
+"team": "Delhi",
+"teamCode": "DL",
+"jersey": 14,
+"matchUp": "M",
+"city": "Delhi",
+"role": "DFLT"
+},
+{
+"id": 3256,
+"name": "Riya  Kumari",
+"team": "Delhi",
+"teamCode": "DL",
+"jersey": null,
+"matchUp": "F",
+"city": "Delhi",
+"role": "DFLT"
+},
+{
+"id": 2581,
+"name": "Rohit Mandal",
+"team": "Delhi",
+"teamCode": "DL",
+"jersey": 99,
+"matchUp": "M",
+"city": "New delhi",
+"role": "DFLT"
+},
+{
+"id": 2653,
+"name": "Shamsher Singh",
+"team": "Delhi",
+"teamCode": "DL",
+"jersey": 52,
+"matchUp": "M",
+"city": "New delhi",
+"role": "DFLT"
+},
+{
+"id": 4389,
+"name": "Sheetal Sanag",
+"team": "Delhi",
+"teamCode": "DL",
+"jersey": null,
+"matchUp": "F",
+"city": "Delhi",
+"role": "DFLT"
+},
+{
+"id": 3343,
+"name": "Sohan -",
+"team": "Delhi",
+"teamCode": "DL",
+"jersey": null,
+"matchUp": "M",
+"city": "Faridabad",
+"role": "DFLT"
+},
+{
+"id": 5404,
+"name": "Sunny  Chauhan",
+"team": "Delhi",
+"teamCode": "DL",
+"jersey": 66,
+"matchUp": "M",
+"city": "Delhi",
+"role": "DFLT"
+},
+{
+"id": 4451,
+"name": "Suraj Randeep",
+"team": "Delhi",
+"teamCode": "DL",
+"jersey": 18,
+"matchUp": "M",
+"city": "Delhi",
+"role": "DFLT"
+},
+{
+"id": 2839,
+"name": "Vikas Jana",
+"team": "Delhi",
+"teamCode": "DL",
+"jersey": 29,
+"matchUp": "M",
+"city": "New Delhi",
+"role": "DFLT"
+},
+{
+"id": 2047,
+"name": "Arya Shah",
+"team": "Gujarat",
+"teamCode": "GJ",
+"jersey": 97,
+"matchUp": "F",
+"city": "Surat",
+"role": "DFLT"
+},
+{
+"id": 3293,
+"name": "Deep Rathod",
+"team": "Gujarat",
+"teamCode": "GJ",
+"jersey": 18,
+"matchUp": "M",
+"city": "Surat",
+"role": "DFLT"
+},
+{
+"id": 2215,
+"name": "Hina Nainani",
+"team": "Gujarat",
+"teamCode": "GJ",
+"jersey": 17,
+"matchUp": "F",
+"city": "NA",
+"role": "SCAP"
+},
+{
+"id": 3315,
+"name": "Janvi Chauhan",
+"team": "Gujarat",
+"teamCode": "GJ",
+"jersey": 18,
+"matchUp": "F",
+"city": "Ahmedabad ",
+"role": "DFLT"
+},
+{
+"id": 3177,
+"name": "Karan  Sharma",
+"team": "Gujarat",
+"teamCode": "GJ",
+"jersey": 26,
+"matchUp": "M",
+"city": "Surat",
+"role": "DFLT"
+},
+{
+"id": 2284,
+"name": "Kenny Borsada",
+"team": "Gujarat",
+"teamCode": "GJ",
+"jersey": 14,
+"matchUp": "M",
+"city": "Ahmedabad",
+"role": "CAP"
+},
+{
+"id": 4066,
+"name": "Khushi Chopra",
+"team": "Gujarat",
+"teamCode": "GJ",
+"jersey": 27,
+"matchUp": "F",
+"city": "Surat",
+"role": "DFLT"
+},
+{
+"id": 3556,
+"name": "Maahi Shah",
+"team": "Gujarat",
+"teamCode": "GJ",
+"jersey": 8,
+"matchUp": "F",
+"city": "surat",
+"role": "DFLT"
+},
+{
+"id": 2339,
+"name": "Maitry Acharya",
+"team": "Gujarat",
+"teamCode": "GJ",
+"jersey": 1,
+"matchUp": "F",
+"city": "GANDHI NAGAR",
+"role": "DFLT"
+},
+{
+"id": 5483,
+"name": "Meet Solanki",
+"team": "Gujarat",
+"teamCode": "GJ",
+"jersey": null,
+"matchUp": "M",
+"city": "Surat",
+"role": "DFLT"
+},
+{
+"id": 4247,
+"name": "Mittal Vasava Vasava",
+"team": "Gujarat",
+"teamCode": "GJ",
+"jersey": null,
+"matchUp": "F",
+"city": "Surat",
+"role": "DFLT"
+},
+{
+"id": 2425,
+"name": "Nikhil Diwakar",
+"team": "Gujarat",
+"teamCode": "GJ",
+"jersey": 12,
+"matchUp": "M",
+"city": "Surat",
+"role": "DFLT"
+},
+{
+"id": 2431,
+"name": "Nimisha Vasava",
+"team": "Gujarat",
+"teamCode": "GJ",
+"jersey": 4,
+"matchUp": "F",
+"city": "surat",
+"role": "DFLT"
+},
+{
+"id": 3600,
+"name": "Payal Gavli",
+"team": "Gujarat",
+"teamCode": "GJ",
+"jersey": 23,
+"matchUp": "F",
+"city": "Surat ",
+"role": "DFLT"
+},
+{
+"id": 4663,
+"name": "Payal Mangale",
+"team": "Gujarat",
+"teamCode": "GJ",
+"jersey": null,
+"matchUp": "F",
+"city": "Bengaluru ",
+"role": "DFLT"
+},
+{
+"id": 3983,
+"name": "Raj Murkar",
+"team": "Gujarat",
+"teamCode": "GJ",
+"jersey": 15,
+"matchUp": "M",
+"city": "Surat",
+"role": "DFLT"
+},
+{
+"id": 2565,
+"name": "Ravi Mandal",
+"team": "Gujarat",
+"teamCode": "GJ",
+"jersey": 4,
+"matchUp": "M",
+"city": "Surat",
+"role": "DFLT"
+},
+{
+"id": 4459,
+"name": "Ronit Tawade",
+"team": "Gujarat",
+"teamCode": "GJ",
+"jersey": null,
+"matchUp": "M",
+"city": "Surat",
+"role": "DFLT"
+},
+{
+"id": 5369,
+"name": "Sagar Bishwakarma",
+"team": "Gujarat",
+"teamCode": "GJ",
+"jersey": 21,
+"matchUp": "M",
+"city": "Surat",
+"role": "DFLT"
+},
+{
+"id": 3474,
+"name": "Sanjay Parmar",
+"team": "Gujarat",
+"teamCode": "GJ",
+"jersey": 3,
+"matchUp": "M",
+"city": "Surat",
+"role": "SCAP"
+},
+{
+"id": 2648,
+"name": "Sehal Chaudhari",
+"team": "Gujarat",
+"teamCode": "GJ",
+"jersey": 3,
+"matchUp": "M",
+"city": "Surat",
+"role": "DFLT"
+},
+{
+"id": 5272,
+"name": "Shraddha Chaudhri",
+"team": "Gujarat",
+"teamCode": "GJ",
+"jersey": null,
+"matchUp": "F",
+"city": "Surat",
+"role": "CAP"
+},
+{
+"id": 3496,
+"name": "Shubham  Kadu",
+"team": "Gujarat",
+"teamCode": "GJ",
+"jersey": 33,
+"matchUp": "M",
+"city": "Surat ",
+"role": "DFLT"
+},
+{
+"id": 2742,
+"name": "Suhani Diwakar",
+"team": "Gujarat",
+"teamCode": "GJ",
+"jersey": 8,
+"matchUp": "F",
+"city": "Surat",
+"role": "DFLT"
+},
+{
+"id": 4238,
+"name": "Vaibhavi Chadudhri",
+"team": "Gujarat",
+"teamCode": "GJ",
+"jersey": null,
+"matchUp": "F",
+"city": "Surat",
+"role": "DFLT"
+},
+{
+"id": 3488,
+"name": "Vishal Rathod",
+"team": "Gujarat",
+"teamCode": "GJ",
+"jersey": 10,
+"matchUp": "M",
+"city": "Surat",
+"role": "DFLT"
+},
+{
+"id": 1924,
+"name": "Abdul Talib",
+"team": "Karnataka",
+"teamCode": "KA",
+"jersey": 34,
+"matchUp": "M",
+"city": "Bangalore",
+"role": "DFLT"
+},
+{
+"id": 2974,
+"name": "Abigail Anthony",
+"team": "Karnataka",
+"teamCode": "KA",
+"jersey": 17,
+"matchUp": "F",
+"city": "Bangalore",
+"role": "DFLT"
+},
+{
+"id": 3190,
+"name": "Aditya Shainesh",
+"team": "Karnataka",
+"teamCode": "KA",
+"jersey": 3,
+"matchUp": "M",
+"city": "Bengaluru",
+"role": "DFLT"
+},
+{
+"id": 1954,
+"name": "Ajay Kumar  Yadav",
+"team": "Karnataka",
+"teamCode": "KA",
+"jersey": 49,
+"matchUp": "M",
+"city": "Bangalore",
+"role": "DFLT"
+},
+{
+"id": 3182,
+"name": "Akshat Shisodia",
+"team": "Karnataka",
+"teamCode": "KA",
+"jersey": 0,
+"matchUp": "M",
+"city": "Bangalore",
+"role": "DFLT"
+},
+{
+"id": 4097,
+"name": "Anaika Sima",
+"team": "Karnataka",
+"teamCode": "KA",
+"jersey": 19,
+"matchUp": "F",
+"city": "Bengaluru",
+"role": "DFLT"
+},
+{
+"id": 2890,
+"name": "Anna Varghese",
+"team": "Karnataka",
+"teamCode": "KA",
+"jersey": 59,
+"matchUp": "F",
+"city": "Bangalore",
+"role": "DFLT"
+},
+{
+"id": 2233,
+"name": "Jashan Shetty",
+"team": "Karnataka",
+"teamCode": "KA",
+"jersey": 15,
+"matchUp": "M",
+"city": "Bangalore",
+"role": "DFLT"
+},
+{
+"id": 3535,
+"name": "Jinam Keniya",
+"team": "Karnataka",
+"teamCode": "KA",
+"jersey": 36,
+"matchUp": "M",
+"city": "Mumbai",
+"role": "DFLT"
+},
+{
+"id": 2250,
+"name": "K Shiva",
+"team": "Karnataka",
+"teamCode": "KA",
+"jersey": 88,
+"matchUp": "M",
+"city": "Banglore",
+"role": "DFLT"
+},
+{
+"id": 2287,
+"name": "Keya Ikareth",
+"team": "Karnataka",
+"teamCode": "KA",
+"jersey": 19,
+"matchUp": "F",
+"city": "Bangalore",
+"role": "DFLT"
+},
+{
+"id": 2336,
+"name": "Mahi Ikareth",
+"team": "Karnataka",
+"teamCode": "KA",
+"jersey": 66,
+"matchUp": "F",
+"city": "Bangalore",
+"role": "DFLT"
+},
+{
+"id": 3005,
+"name": "Mithi Farias",
+"team": "Karnataka",
+"teamCode": "KA",
+"jersey": 95,
+"matchUp": "F",
+"city": "Bangalore",
+"role": "DFLT"
+},
+{
+"id": 2386,
+"name": "Monisha Tj",
+"team": "Karnataka",
+"teamCode": "KA",
+"jersey": 3,
+"matchUp": "F",
+"city": "Banglore",
+"role": "DFLT"
+},
+{
+"id": 3003,
+"name": "Naina Varghese",
+"team": "Karnataka",
+"teamCode": "KA",
+"jersey": 40,
+"matchUp": "F",
+"city": "Bengaluru",
+"role": "DFLT"
+},
+{
+"id": 3418,
+"name": "Neha NK",
+"team": "Karnataka",
+"teamCode": "KA",
+"jersey": 33,
+"matchUp": "F",
+"city": "Bengaluru",
+"role": "DFLT"
+},
+{
+"id": 3001,
+"name": "Sagarika  Ghanagam",
+"team": "Karnataka",
+"teamCode": "KA",
+"jersey": 6,
+"matchUp": "F",
+"city": "Bangalore ",
+"role": "DFLT"
+},
+{
+"id": 3006,
+"name": "Samatv Iyer",
+"team": "Karnataka",
+"teamCode": "KA",
+"jersey": 20,
+"matchUp": "M",
+"city": "Bengaluru",
+"role": "DFLT"
+},
+{
+"id": 3427,
+"name": "Sandhya C",
+"team": "Karnataka",
+"teamCode": "KA",
+"jersey": 2,
+"matchUp": "F",
+"city": "Bengaluru",
+"role": "DFLT"
+},
+{
+"id": 2640,
+"name": "Sarang Minhas",
+"team": "Karnataka",
+"teamCode": "KA",
+"jersey": 43,
+"matchUp": "M",
+"city": "Bengaluru",
+"role": "DFLT"
+},
+{
+"id": 2682,
+"name": "Shruthi Gowda",
+"team": "Karnataka",
+"teamCode": "KA",
+"jersey": 3,
+"matchUp": "F",
+"city": "Banglore",
+"role": "DFLT"
+},
+{
+"id": 2699,
+"name": "Siddharth Kapoor",
+"team": "Karnataka",
+"teamCode": "KA",
+"jersey": 41,
+"matchUp": "M",
+"city": "Bangalore",
+"role": "DFLT"
+},
+{
+"id": 2761,
+"name": "Sushil Kumar Manivannan",
+"team": "Karnataka",
+"teamCode": "KA",
+"jersey": 5,
+"matchUp": "M",
+"city": "Bangalore",
+"role": "DFLT"
+},
+{
+"id": 2769,
+"name": "Swathi S",
+"team": "Karnataka",
+"teamCode": "KA",
+"jersey": 3,
+"matchUp": "F",
+"city": "Bangalore",
+"role": "DFLT"
+},
+{
+"id": 2785,
+"name": "Tejhas Jagadish",
+"team": "Karnataka",
+"teamCode": "KA",
+"jersey": 24,
+"matchUp": "M",
+"city": "Bangalore",
+"role": "DFLT"
+},
+{
+"id": 2994,
+"name": "Varun Rangarajan",
+"team": "Karnataka",
+"teamCode": "KA",
+"jersey": 27,
+"matchUp": "M",
+"city": "Bengaluru",
+"role": "DFLT"
+},
+{
+"id": 3719,
+"name": "Abhijith RS",
+"team": "Kerala",
+"teamCode": "KL",
+"jersey": 3,
+"matchUp": "M",
+"city": "Thiruvananthapuram ",
+"role": "DFLT"
+},
+{
+"id": 3714,
+"name": "Adhilsha  S",
+"team": "Kerala",
+"teamCode": "KL",
+"jersey": 13,
+"matchUp": "M",
+"city": "Trivandrum",
+"role": "DFLT"
+},
+{
+"id": 4324,
+"name": "Ahila  S A",
+"team": "Kerala",
+"teamCode": "KL",
+"jersey": 7,
+"matchUp": "F",
+"city": "Trivandrum",
+"role": "CAP"
+},
+{
+"id": 4343,
+"name": "Aiswarya  Sethumadhavan",
+"team": "Kerala",
+"teamCode": "KL",
+"jersey": null,
+"matchUp": "F",
+"city": "Trivandrum ",
+"role": "DFLT"
+},
+{
+"id": 5938,
+"name": "ALEN THOMAS MONCY",
+"team": "Kerala",
+"teamCode": "KL",
+"jersey": 94,
+"matchUp": "M",
+"city": "Kochi",
+"role": "DFLT"
+},
+{
+"id": 3802,
+"name": "Arya Menon",
+"team": "Kerala",
+"teamCode": "KL",
+"jersey": 16,
+"matchUp": "F",
+"city": "Kochi",
+"role": "DFLT"
+},
+{
+"id": 5536,
+"name": "Aslaha K A",
+"team": "Kerala",
+"teamCode": "KL",
+"jersey": null,
+"matchUp": "F",
+"city": "Kochi",
+"role": "DFLT"
+},
+{
+"id": 3275,
+"name": "Cyril Binoy",
+"team": "Kerala",
+"teamCode": "KL",
+"jersey": 1,
+"matchUp": "M",
+"city": "Kottayam",
+"role": "SCAP"
+},
+{
+"id": 3745,
+"name": "David  Raj",
+"team": "Kerala",
+"teamCode": "KL",
+"jersey": 7,
+"matchUp": "M",
+"city": "Trivandrum",
+"role": "DFLT"
+},
+{
+"id": 3799,
+"name": "Faheem Arif",
+"team": "Kerala",
+"teamCode": "KL",
+"jersey": 30,
+"matchUp": "M",
+"city": "Kochi",
+"role": "DFLT"
+},
+{
+"id": 3414,
+"name": "Gayathri GS",
+"team": "Kerala",
+"teamCode": "KL",
+"jersey": 13,
+"matchUp": "F",
+"city": "Bengaluru",
+"role": "SCAP"
+},
+{
+"id": 4473,
+"name": "Goutham Sankar",
+"team": "Kerala",
+"teamCode": "KL",
+"jersey": 333,
+"matchUp": "M",
+"city": "Kochi",
+"role": "DFLT"
+},
+{
+"id": 3731,
+"name": "Gowtham Raj",
+"team": "Kerala",
+"teamCode": "KL",
+"jersey": 0,
+"matchUp": "M",
+"city": "Thiruvananthapuram",
+"role": "CAP"
+},
+{
+"id": 4413,
+"name": "Jeff  Johnson",
+"team": "Kerala",
+"teamCode": "KL",
+"jersey": 999,
+"matchUp": "M",
+"city": "Kochi",
+"role": "DFLT"
+},
+{
+"id": 3863,
+"name": "Joseph M C",
+"team": "Kerala",
+"teamCode": "KL",
+"jersey": null,
+"matchUp": "M",
+"city": "Kottayam",
+"role": "DFLT"
+},
+{
+"id": 2402,
+"name": "Namritha Anbarasan",
+"team": "Kerala",
+"teamCode": "KL",
+"jersey": 6,
+"matchUp": "F",
+"city": "Chennai",
+"role": "DFLT"
+},
+{
+"id": 4321,
+"name": "Niranjan  SR",
+"team": "Kerala",
+"teamCode": "KL",
+"jersey": 9,
+"matchUp": "M",
+"city": "Trivandrum",
+"role": "DFLT"
+},
+{
+"id": 4323,
+"name": "SANJANA MS",
+"team": "Kerala",
+"teamCode": "KL",
+"jersey": 16,
+"matchUp": "F",
+"city": "Thiruvananthapuram",
+"role": "DFLT"
+},
+{
+"id": 3822,
+"name": "Swalih  K N",
+"team": "Kerala",
+"teamCode": "KL",
+"jersey": 11,
+"matchUp": "M",
+"city": "Kochi",
+"role": "DFLT"
+},
+{
+"id": 5978,
+"name": "Tessa Manu  Joseph",
+"team": "Kerala",
+"teamCode": "KL",
+"jersey": null,
+"matchUp": "F",
+"city": "Trivandrum ",
+"role": "DFLT"
+},
+{
+"id": 5934,
+"name": "Tiara Prasad",
+"team": "Kerala",
+"teamCode": "KL",
+"jersey": 5,
+"matchUp": "F",
+"city": "Kochi",
+"role": "DFLT"
+},
+{
+"id": 5184,
+"name": "Tithi Sen",
+"team": "Kerala",
+"teamCode": "KL",
+"jersey": 25,
+"matchUp": "F",
+"city": "Kochi",
+"role": "DFLT"
+},
+{
+"id": 5543,
+"name": "VARUN  KUMAR",
+"team": "Kerala",
+"teamCode": "KL",
+"jersey": 10,
+"matchUp": "M",
+"city": "Kochi",
+"role": "DFLT"
+},
+{
+"id": 6006,
+"name": "Vishmaya  K",
+"team": "Kerala",
+"teamCode": "KL",
+"jersey": null,
+"matchUp": "F",
+"city": "Coimbatore ",
+"role": "DFLT"
+},
+{
+"id": 3711,
+"name": "VV  Joseph",
+"team": "Kerala",
+"teamCode": "KL",
+"jersey": 69,
+"matchUp": "M",
+"city": "Trivandrum",
+"role": "DFLT"
+},
+{
+"id": 5124,
+"name": "Anish Mallah",
+"team": "Madhya Pradesh",
+"teamCode": "MP",
+"jersey": 1,
+"matchUp": "M",
+"city": "Jabalpur",
+"role": "DFLT"
+},
+{
+"id": 4941,
+"name": "Anurag Patel",
+"team": "Madhya Pradesh",
+"teamCode": "MP",
+"jersey": 27,
+"matchUp": "M",
+"city": "Jabalpur",
+"role": "DFLT"
+},
+{
+"id": 6117,
+"name": "Archana Archana",
+"team": "Madhya Pradesh",
+"teamCode": "MP",
+"jersey": 44,
+"matchUp": "F",
+"city": "Harda",
+"role": "DFLT"
+},
+{
+"id": 5336,
+"name": "Arvina Arvina",
+"team": "Madhya Pradesh",
+"teamCode": "MP",
+"jersey": 25,
+"matchUp": "F",
+"city": "Harda",
+"role": "DFLT"
+},
+{
+"id": 2048,
+"name": "Aryan Rawat",
+"team": "Madhya Pradesh",
+"teamCode": "MP",
+"jersey": 99,
+"matchUp": "M",
+"city": "Jabalpur",
+"role": "CAP"
+},
+{
+"id": 5118,
+"name": "Ashray Narain",
+"team": "Madhya Pradesh",
+"teamCode": "MP",
+"jersey": null,
+"matchUp": "M",
+"city": "Delhi",
+"role": "DFLT"
+},
+{
+"id": 4918,
+"name": "Harsh Kori",
+"team": "Madhya Pradesh",
+"teamCode": "MP",
+"jersey": 10,
+"matchUp": "M",
+"city": "Jabalpur",
+"role": "DFLT"
+},
+{
+"id": 4942,
+"name": "Harshita Kori",
+"team": "Madhya Pradesh",
+"teamCode": "MP",
+"jersey": 8,
+"matchUp": "F",
+"city": "Jabalpur",
+"role": "SCAP"
+},
+{
+"id": 6121,
+"name": "Kunal Namdev",
+"team": "Madhya Pradesh",
+"teamCode": "MP",
+"jersey": 20,
+"matchUp": "M",
+"city": "Jabalpur",
+"role": "DFLT"
+},
+{
+"id": 6120,
+"name": "Lucky Kachhi",
+"team": "Madhya Pradesh",
+"teamCode": "MP",
+"jersey": 7,
+"matchUp": "M",
+"city": "Jabalpur",
+"role": "DFLT"
+},
+{
+"id": 3510,
+"name": "Muskan Mallah",
+"team": "Madhya Pradesh",
+"teamCode": "MP",
+"jersey": 24,
+"matchUp": "F",
+"city": "Jabalpur",
+"role": "CAP"
+},
+{
+"id": 5021,
+"name": "Om Yadav",
+"team": "Madhya Pradesh",
+"teamCode": "MP",
+"jersey": 9,
+"matchUp": "M",
+"city": "Jabalpur",
+"role": "DFLT"
+},
+{
+"id": 5026,
+"name": "Palak Yadav",
+"team": "Madhya Pradesh",
+"teamCode": "MP",
+"jersey": 26,
+"matchUp": "F",
+"city": "Jabalpur",
+"role": "DFLT"
+},
+{
+"id": 6118,
+"name": "Pushpa Yadav",
+"team": "Madhya Pradesh",
+"teamCode": "MP",
+"jersey": 6,
+"matchUp": "F",
+"city": "Bhopal",
+"role": "DFLT"
+},
+{
+"id": 5020,
+"name": "Rachana Mallah",
+"team": "Madhya Pradesh",
+"teamCode": "MP",
+"jersey": 66,
+"matchUp": "F",
+"city": "Jabalpur",
+"role": "DFLT"
+},
+{
+"id": 5335,
+"name": "Ritik Chakrabarty",
+"team": "Madhya Pradesh",
+"teamCode": "MP",
+"jersey": 3,
+"matchUp": "M",
+"city": "Jabalpur",
+"role": "DFLT"
+},
+{
+"id": 6119,
+"name": "Selija K",
+"team": "Madhya Pradesh",
+"teamCode": "MP",
+"jersey": 6,
+"matchUp": "F",
+"city": "Jabalpur",
+"role": "DFLT"
+},
+{
+"id": 2132,
+"name": "Stephen Charles",
+"team": "Madhya Pradesh",
+"teamCode": "MP",
+"jersey": 11,
+"matchUp": "M",
+"city": "Jabalpur",
+"role": "SCAP"
+},
+{
+"id": 6116,
+"name": "Vansh Yadav",
+"team": "Madhya Pradesh",
+"teamCode": "MP",
+"jersey": null,
+"matchUp": "M",
+"city": "Jabalpur",
+"role": "DFLT"
+},
+{
+"id": 3321,
+"name": "Arham Modi",
+"team": "Maharashtra",
+"teamCode": "MH",
+"jersey": 21,
+"matchUp": "M",
+"city": "Surat",
+"role": "SCAP"
+},
+{
+"id": 5213,
+"name": "Arushi Bhatnagar",
+"team": "Maharashtra",
+"teamCode": "MH",
+"jersey": 9,
+"matchUp": "F",
+"city": "Pune",
+"role": "DFLT"
+},
+{
+"id": 5070,
+"name": "Aryan Adsul",
+"team": "Maharashtra",
+"teamCode": "MH",
+"jersey": 30,
+"matchUp": "M",
+"city": "PUNE",
+"role": "DFLT"
+},
+{
+"id": 5080,
+"name": "Bhakti  Chandel",
+"team": "Maharashtra",
+"teamCode": "MH",
+"jersey": 8,
+"matchUp": "F",
+"city": "Pune ",
+"role": "DFLT"
+},
+{
+"id": 2156,
+"name": "Drashti Gada",
+"team": "Maharashtra",
+"teamCode": "MH",
+"jersey": 7,
+"matchUp": "F",
+"city": "Mumbai",
+"role": "DFLT"
+},
+{
+"id": 5075,
+"name": "Jayesh Wallapuram",
+"team": "Maharashtra",
+"teamCode": "MH",
+"jersey": 24,
+"matchUp": "M",
+"city": "Pune ",
+"role": "DFLT"
+},
+{
+"id": 2265,
+"name": "Karan Arora",
+"team": "Maharashtra",
+"teamCode": "MH",
+"jersey": 11,
+"matchUp": "M",
+"city": "Navi Mumbai",
+"role": "DFLT"
+},
+{
+"id": 2318,
+"name": "Kunal Pasalkar",
+"team": "Maharashtra",
+"teamCode": "MH",
+"jersey": 9,
+"matchUp": "M",
+"city": "Pune",
+"role": "DFLT"
+},
+{
+"id": 2340,
+"name": "Maksood Chaudhary",
+"team": "Maharashtra",
+"teamCode": "MH",
+"jersey": 92,
+"matchUp": "M",
+"city": "Mumbai",
+"role": "DFLT"
+},
+{
+"id": 4424,
+"name": "Mithuleysh M",
+"team": "Maharashtra",
+"teamCode": "MH",
+"jersey": 52,
+"matchUp": "M",
+"city": "Mumbai",
+"role": "DFLT"
+},
+{
+"id": 5068,
+"name": "Om Kotla",
+"team": "Maharashtra",
+"teamCode": "MH",
+"jersey": null,
+"matchUp": "M",
+"city": "Pune",
+"role": "DFLT"
+},
+{
+"id": 3415,
+"name": "Ravitha  Ravi",
+"team": "Maharashtra",
+"teamCode": "MH",
+"jersey": 16,
+"matchUp": "F",
+"city": "Bangalore ",
+"role": "DFLT"
+},
+{
+"id": 2582,
+"name": "Rohit Shukla",
+"team": "Maharashtra",
+"teamCode": "MH",
+"jersey": 1,
+"matchUp": "M",
+"city": "Pune",
+"role": "DFLT"
+},
+{
+"id": 4052,
+"name": "Saee Patankar",
+"team": "Maharashtra",
+"teamCode": "MH",
+"jersey": 99,
+"matchUp": "F",
+"city": "Pune",
+"role": "DFLT"
+},
+{
+"id": 5069,
+"name": "Saiashrita  Panganti",
+"team": "Maharashtra",
+"teamCode": "MH",
+"jersey": 7,
+"matchUp": "F",
+"city": "Pune ",
+"role": "DFLT"
+},
+{
+"id": 3417,
+"name": "Shivam Dubey",
+"team": "Maharashtra",
+"teamCode": "MH",
+"jersey": 31,
+"matchUp": "M",
+"city": "pune",
+"role": "DFLT"
+},
+{
+"id": 2673,
+"name": "Shraddha Jadhav",
+"team": "Maharashtra",
+"teamCode": "MH",
+"jersey": 7,
+"matchUp": "F",
+"city": "Pune",
+"role": "DFLT"
+},
+{
+"id": 2685,
+"name": "Shubham More",
+"team": "Maharashtra",
+"teamCode": "MH",
+"jersey": 74,
+"matchUp": "M",
+"city": "Pune",
+"role": "CAP"
+},
+{
+"id": 2719,
+"name": "Sowmya Gascon",
+"team": "Maharashtra",
+"teamCode": "MH",
+"jersey": 51,
+"matchUp": "F",
+"city": "Auroville",
+"role": "SCAP"
+},
+{
+"id": 3313,
+"name": "Steffi Kunnel",
+"team": "Maharashtra",
+"teamCode": "MH",
+"jersey": 7,
+"matchUp": "F",
+"city": "Mumbai",
+"role": "DFLT"
+},
+{
+"id": 2749,
+"name": "Sunil Varma",
+"team": "Maharashtra",
+"teamCode": "MH",
+"jersey": 58,
+"matchUp": "M",
+"city": "Pune",
+"role": "DFLT"
+},
+{
+"id": 2759,
+"name": "Sushant Tapse",
+"team": "Maharashtra",
+"teamCode": "MH",
+"jersey": 1,
+"matchUp": "M",
+"city": "Pune",
+"role": "DFLT"
+},
+{
+"id": 2762,
+"name": "Sushma Tapse",
+"team": "Maharashtra",
+"teamCode": "MH",
+"jersey": 77,
+"matchUp": "F",
+"city": "Pune",
+"role": "CAP"
+},
+{
+"id": 2809,
+"name": "Vaishnavi -",
+"team": "Maharashtra",
+"teamCode": "MH",
+"jersey": 73,
+"matchUp": "F",
+"city": "Mumbai",
+"role": "DFLT"
+},
+{
+"id": 5750,
+"name": "Ang Rajeya",
+"team": "Odisha",
+"teamCode": "OR",
+"jersey": null,
+"matchUp": "M",
+"city": "Ganjam",
+"role": "DFLT"
+},
+{
+"id": 5765,
+"name": "Ardu Sanyasi",
+"team": "Odisha",
+"teamCode": "OR",
+"jersey": null,
+"matchUp": "M",
+"city": "Ganjam",
+"role": "DFLT"
+},
+{
+"id": 5767,
+"name": "Ardu Karthik",
+"team": "Odisha",
+"teamCode": "OR",
+"jersey": null,
+"matchUp": "M",
+"city": "Ganjam",
+"role": "DFLT"
+},
+{
+"id": 5747,
+"name": "B Krushna",
+"team": "Odisha",
+"teamCode": "OR",
+"jersey": null,
+"matchUp": "M",
+"city": "Ganjam",
+"role": "DFLT"
+},
+{
+"id": 6148,
+"name": "Ch Kalia",
+"team": "Odisha",
+"teamCode": "OR",
+"jersey": null,
+"matchUp": "M",
+"city": "GANJAM",
+"role": "DFLT"
+},
+{
+"id": 5738,
+"name": "Ch Rashmita",
+"team": "Odisha",
+"teamCode": "OR",
+"jersey": null,
+"matchUp": "F",
+"city": "Ganjam",
+"role": "DFLT"
+},
+{
+"id": 5739,
+"name": "Ch Rashmita",
+"team": "Odisha",
+"teamCode": "OR",
+"jersey": null,
+"matchUp": "F",
+"city": "Ganjam",
+"role": "DFLT"
+},
+{
+"id": 5741,
+"name": "Ch Anita",
+"team": "Odisha",
+"teamCode": "OR",
+"jersey": null,
+"matchUp": "F",
+"city": "Ganjam",
+"role": "DFLT"
+},
+{
+"id": 5762,
+"name": "Ch Chandu",
+"team": "Odisha",
+"teamCode": "OR",
+"jersey": null,
+"matchUp": "M",
+"city": "Ganjam",
+"role": "DFLT"
+},
+{
+"id": 5754,
+"name": "Ch Karthik",
+"team": "Odisha",
+"teamCode": "OR",
+"jersey": null,
+"matchUp": "M",
+"city": "Ganjam",
+"role": "DFLT"
+},
+{
+"id": 5769,
+"name": "Ch Raja",
+"team": "Odisha",
+"teamCode": "OR",
+"jersey": null,
+"matchUp": "M",
+"city": "Ganjam",
+"role": "DFLT"
+},
+{
+"id": 5736,
+"name": "Ch Anjali",
+"team": "Odisha",
+"teamCode": "OR",
+"jersey": null,
+"matchUp": "F",
+"city": "Ganjam",
+"role": "DFLT"
+},
+{
+"id": 6124,
+"name": "Ch  Geeta",
+"team": "Odisha",
+"teamCode": "OR",
+"jersey": null,
+"matchUp": "F",
+"city": "Ganjam",
+"role": "DFLT"
+},
+{
+"id": 6123,
+"name": "Ch  Naresh",
+"team": "Odisha",
+"teamCode": "OR",
+"jersey": null,
+"matchUp": "M",
+"city": "Ganjam",
+"role": "DFLT"
+},
+{
+"id": 5748,
+"name": "Dumu Santhosh",
+"team": "Odisha",
+"teamCode": "OR",
+"jersey": null,
+"matchUp": "M",
+"city": "Ganjam",
+"role": "DFLT"
+},
+{
+"id": 5740,
+"name": "E Sumitra",
+"team": "Odisha",
+"teamCode": "OR",
+"jersey": null,
+"matchUp": "F",
+"city": "Ganjam",
+"role": "DFLT"
+},
+{
+"id": 3489,
+"name": "Himanshi Dhruw",
+"team": "Odisha",
+"teamCode": "OR",
+"jersey": 3,
+"matchUp": "F",
+"city": "Bengaluru",
+"role": "DFLT"
+},
+{
+"id": 5764,
+"name": "K Sunil",
+"team": "Odisha",
+"teamCode": "OR",
+"jersey": null,
+"matchUp": "M",
+"city": "Ganjam",
+"role": "DFLT"
+},
+{
+"id": 5763,
+"name": "N Trinath",
+"team": "Odisha",
+"teamCode": "OR",
+"jersey": null,
+"matchUp": "M",
+"city": "Ganjam",
+"role": "DFLT"
+},
+{
+"id": 4913,
+"name": "Ria Philip",
+"team": "Odisha",
+"teamCode": "OR",
+"jersey": null,
+"matchUp": "F",
+"city": "Ganjam",
+"role": "DFLT"
+},
+{
+"id": 5752,
+"name": "S Dharma",
+"team": "Odisha",
+"teamCode": "OR",
+"jersey": null,
+"matchUp": "M",
+"city": "Ganjam",
+"role": "DFLT"
+},
+{
+"id": 6125,
+"name": "U  Sibani",
+"team": "Odisha",
+"teamCode": "OR",
+"jersey": null,
+"matchUp": "F",
+"city": "Ganjam",
+"role": "DFLT"
+},
+{
+"id": 1913,
+"name": "Aadhithiyan Mailappan",
+"team": "Tamil Nadu",
+"teamCode": "TN",
+"jersey": 11,
+"matchUp": "M",
+"city": "Chennai",
+"role": "DFLT"
+},
+{
+"id": 2029,
+"name": "Amarsakthi Sivaraj",
+"team": "Tamil Nadu",
+"teamCode": "TN",
+"jersey": 81,
+"matchUp": "M",
+"city": "Auroville",
+"role": "DFLT"
+},
+{
+"id": 4488,
+"name": "Aparna Jain",
+"team": "Tamil Nadu",
+"teamCode": "TN",
+"jersey": 66,
+"matchUp": "F",
+"city": "Chennai",
+"role": "DFLT"
+},
+{
+"id": 2030,
+"name": "Aravind Siva N",
+"team": "Tamil Nadu",
+"teamCode": "TN",
+"jersey": 55,
+"matchUp": "M",
+"city": "Chennai",
+"role": "DFLT"
+},
+{
+"id": 2042,
+"name": "Arulmozhi Selvan S",
+"team": "Tamil Nadu",
+"teamCode": "TN",
+"jersey": 25,
+"matchUp": "M",
+"city": "Chennai",
+"role": "DFLT"
+},
+{
+"id": 3018,
+"name": "Bairavi SV",
+"team": "Tamil Nadu",
+"teamCode": "TN",
+"jersey": 26,
+"matchUp": "F",
+"city": "Chennai",
+"role": "DFLT"
+},
+{
+"id": 3084,
+"name": "Deepika  Sankar",
+"team": "Tamil Nadu",
+"teamCode": "TN",
+"jersey": 14,
+"matchUp": "F",
+"city": "Chennai ",
+"role": "CAP"
+},
+{
+"id": 2145,
+"name": "Dickson George",
+"team": "Tamil Nadu",
+"teamCode": "TN",
+"jersey": 11,
+"matchUp": "M",
+"city": "Chennai",
+"role": "CAP"
+},
+{
+"id": 2191,
+"name": "Gowtham K",
+"team": "Tamil Nadu",
+"teamCode": "TN",
+"jersey": 7,
+"matchUp": "M",
+"city": "Chennai",
+"role": "DFLT"
+},
+{
+"id": 2226,
+"name": "Ishta Palaniappan",
+"team": "Tamil Nadu",
+"teamCode": "TN",
+"jersey": 10,
+"matchUp": "F",
+"city": "Chennai",
+"role": "DFLT"
+},
+{
+"id": 3029,
+"name": "Mathangi  S V",
+"team": "Tamil Nadu",
+"teamCode": "TN",
+"jersey": 64,
+"matchUp": "F",
+"city": "Chennai ",
+"role": "DFLT"
+},
+{
+"id": 3142,
+"name": "Meshach Fernandez",
+"team": "Tamil Nadu",
+"teamCode": "TN",
+"jersey": 10,
+"matchUp": "M",
+"city": "Coimbatore ",
+"role": "DFLT"
+},
+{
+"id": 3355,
+"name": "Nandakumar Parthasarathi",
+"team": "Tamil Nadu",
+"teamCode": "TN",
+"jersey": 66,
+"matchUp": "M",
+"city": "Chennai",
+"role": "DFLT"
+},
+{
+"id": 4316,
+"name": "Nishant Mahesh",
+"team": "Tamil Nadu",
+"teamCode": "TN",
+"jersey": 27,
+"matchUp": "M",
+"city": "Chennai",
+"role": "DFLT"
+},
+{
+"id": 3735,
+"name": "Pavan Kumar",
+"team": "Tamil Nadu",
+"teamCode": "TN",
+"jersey": 33,
+"matchUp": "M",
+"city": "Tiruvannamalai",
+"role": "DFLT"
+},
+{
+"id": 2472,
+"name": "Pooja Bapat",
+"team": "Tamil Nadu",
+"teamCode": "TN",
+"jersey": 18,
+"matchUp": "F",
+"city": "Chennai",
+"role": "SCAP"
+},
+{
+"id": 2591,
+"name": "Roshni Khanal",
+"team": "Tamil Nadu",
+"teamCode": "TN",
+"jersey": null,
+"matchUp": "F",
+"city": "Chennai",
+"role": "CAP"
+},
+{
+"id": 2622,
+"name": "Samyuktha Arvind",
+"team": "Tamil Nadu",
+"teamCode": "TN",
+"jersey": 99,
+"matchUp": "F",
+"city": "Chennai",
+"role": "SCAP"
+},
+{
+"id": 2985,
+"name": "Shanmugam R",
+"team": "Tamil Nadu",
+"teamCode": "TN",
+"jersey": 1,
+"matchUp": "M",
+"city": "Chennai",
+"role": "DFLT"
+},
+{
+"id": 3049,
+"name": "Shirley  Peter",
+"team": "Tamil Nadu",
+"teamCode": "TN",
+"jersey": 26,
+"matchUp": "F",
+"city": "Chennai ",
+"role": "SCAP"
+},
+{
+"id": 3407,
+"name": "Shivani Vaidyanathan",
+"team": "Tamil Nadu",
+"teamCode": "TN",
+"jersey": 83,
+"matchUp": "F",
+"city": "Chennai",
+"role": "DFLT"
+},
+{
+"id": 2711,
+"name": "Snehankita Rout",
+"team": "Tamil Nadu",
+"teamCode": "TN",
+"jersey": 31,
+"matchUp": "F",
+"city": "Auroville",
+"role": "DFLT"
+},
+{
+"id": 2724,
+"name": "Sree Vaishnavi Devi Somisetty",
+"team": "Tamil Nadu",
+"teamCode": "TN",
+"jersey": 27,
+"matchUp": "F",
+"city": "Bangalore",
+"role": "DFLT"
+},
+{
+"id": 2736,
+"name": "Subhash Bat",
+"team": "Tamil Nadu",
+"teamCode": "TN",
+"jersey": 5,
+"matchUp": "M",
+"city": "Chennai",
+"role": "DFLT"
+},
+{
+"id": 2745,
+"name": "Sumanth V",
+"team": "Tamil Nadu",
+"teamCode": "TN",
+"jersey": 91,
+"matchUp": "M",
+"city": "Chennai",
+"role": "DFLT"
+},
+{
+"id": 3834,
+"name": "Thamarai Mouvel",
+"team": "Tamil Nadu",
+"teamCode": "TN",
+"jersey": 10,
+"matchUp": "F",
+"city": "Tiruvannamalai",
+"role": "DFLT"
+},
+{
+"id": 6028,
+"name": "Asha Rani",
+"team": "Telangana Ultimate",
+"teamCode": "TG",
+"jersey": null,
+"matchUp": "F",
+"city": "Hyderabad",
+"role": "DFLT"
+},
+{
+"id": 3754,
+"name": "Dharavath  Sai",
+"team": "Telangana Ultimate",
+"teamCode": "TG",
+"jersey": null,
+"matchUp": "M",
+"city": "Hyderabad ",
+"role": "DFLT"
+},
+{
+"id": 2897,
+"name": "Dhiraj Gangaraju",
+"team": "Telangana Ultimate",
+"teamCode": "TG",
+"jersey": 14,
+"matchUp": "M",
+"city": "Bengaluru",
+"role": "DFLT"
+},
+{
+"id": 2166,
+"name": "G Pranay",
+"team": "Telangana Ultimate",
+"teamCode": "TG",
+"jersey": 10,
+"matchUp": "M",
+"city": "Hyderabad",
+"role": "DFLT"
+},
+{
+"id": 2186,
+"name": "Goundla Mamatha",
+"team": "Telangana Ultimate",
+"teamCode": "TG",
+"jersey": null,
+"matchUp": "F",
+"city": "Vikarabad",
+"role": "DFLT"
+},
+{
+"id": 6149,
+"name": "Gowthami Thallapally",
+"team": "Telangana Ultimate",
+"teamCode": "TG",
+"jersey": null,
+"matchUp": "F",
+"city": "hyderabad ",
+"role": "DFLT"
+},
+{
+"id": 3165,
+"name": "Hemanth Bennada",
+"team": "Telangana Ultimate",
+"teamCode": "TG",
+"jersey": 25,
+"matchUp": "M",
+"city": "Hyderabad",
+"role": "DFLT"
+},
+{
+"id": 2264,
+"name": "Kanna Sandeep",
+"team": "Telangana Ultimate",
+"teamCode": "TG",
+"jersey": null,
+"matchUp": "M",
+"city": "Hyderabad",
+"role": "DFLT"
+},
+{
+"id": 2417,
+"name": "Nayanatara Vadali",
+"team": "Telangana Ultimate",
+"teamCode": "TG",
+"jersey": 9,
+"matchUp": "F",
+"city": "Hyderabad",
+"role": "DFLT"
+},
+{
+"id": 3718,
+"name": "Policepatel Usharani",
+"team": "Telangana Ultimate",
+"teamCode": "TG",
+"jersey": null,
+"matchUp": "F",
+"city": "Hyderabad ",
+"role": "DFLT"
+},
+{
+"id": 1911,
+"name": "Praveen Kumar S",
+"team": "Telangana Ultimate",
+"teamCode": "TG",
+"jersey": 5,
+"matchUp": "M",
+"city": "Hyderabad",
+"role": "DFLT"
+},
+{
+"id": 3744,
+"name": "Pulugu ganesh",
+"team": "Telangana Ultimate",
+"teamCode": "TG",
+"jersey": null,
+"matchUp": "M",
+"city": "Hyderabad",
+"role": "DFLT"
+},
+{
+"id": 3769,
+"name": "Purami Ankita",
+"team": "Telangana Ultimate",
+"teamCode": "TG",
+"jersey": 24,
+"matchUp": "F",
+"city": "Hyderabad ",
+"role": "DFLT"
+},
+{
+"id": 2556,
+"name": "Ramya Bhavana Kothapalli",
+"team": "Telangana Ultimate",
+"teamCode": "TG",
+"jersey": 23,
+"matchUp": "F",
+"city": "Hyderabad",
+"role": "DFLT"
+},
+{
+"id": 3787,
+"name": "Ravi Tetali",
+"team": "Telangana Ultimate",
+"teamCode": "TG",
+"jersey": 9,
+"matchUp": "M",
+"city": "Hyderabad ",
+"role": "DFLT"
+},
+{
+"id": 3176,
+"name": "Ridhi Choudarapu",
+"team": "Telangana Ultimate",
+"teamCode": "TG",
+"jersey": 28,
+"matchUp": "F",
+"city": "hyderabad",
+"role": "DFLT"
+},
+{
+"id": 3750,
+"name": "Simran Kumari",
+"team": "Telangana Ultimate",
+"teamCode": "TG",
+"jersey": null,
+"matchUp": "F",
+"city": "Hyderabad ",
+"role": "DFLT"
+},
+{
+"id": 3430,
+"name": "Suresh Borala",
+"team": "Telangana Ultimate",
+"teamCode": "TG",
+"jersey": 21,
+"matchUp": "M",
+"city": "Hyderabad ",
+"role": "DFLT"
+},
+{
+"id": 3720,
+"name": "Thoude Om prakash",
+"team": "Telangana Ultimate",
+"teamCode": "TG",
+"jersey": null,
+"matchUp": "M",
+"city": "Hyderabad ",
+"role": "DFLT"
+},
+{
+"id": 3850,
+"name": "Vadthyavath Ashwini",
+"team": "Telangana Ultimate",
+"teamCode": "TG",
+"jersey": null,
+"matchUp": "F",
+"city": "Hyderabad",
+"role": "DFLT"
+},
+{
+"id": 3199,
+"name": "Vardhan Mahajan",
+"team": "Telangana Ultimate",
+"teamCode": "TG",
+"jersey": 161,
+"matchUp": "M",
+"city": "Hyderabad",
+"role": "DFLT"
+},
+{
+"id": 4553,
+"name": "Vihari Bhupathi",
+"team": "Telangana Ultimate",
+"teamCode": "TG",
+"jersey": 3,
+"matchUp": "M",
+"city": "Hyderabad",
+"role": "DFLT"
+},
+{
+"id": 6143,
+"name": "Aarav Gurung",
+"team": "Uttarakhand State Team",
+"teamCode": "UK",
+"jersey": null,
+"matchUp": "M",
+"city": "Dehradun",
+"role": "DFLT"
+},
+{
+"id": 6136,
+"name": "Amisha Chauhan",
+"team": "Uttarakhand State Team",
+"teamCode": "UK",
+"jersey": null,
+"matchUp": "F",
+"city": "Dehradun",
+"role": "DFLT"
+},
+{
+"id": 6131,
+"name": "Ankita Bhatt",
+"team": "Uttarakhand State Team",
+"teamCode": "UK",
+"jersey": null,
+"matchUp": "F",
+"city": "Dehradun",
+"role": "DFLT"
+},
+{
+"id": 6142,
+"name": "Anmol kumar",
+"team": "Uttarakhand State Team",
+"teamCode": "UK",
+"jersey": null,
+"matchUp": "M",
+"city": "Dehradun",
+"role": "DFLT"
+},
+{
+"id": 6139,
+"name": "Bikku kumar",
+"team": "Uttarakhand State Team",
+"teamCode": "UK",
+"jersey": null,
+"matchUp": "M",
+"city": "Dehradun",
+"role": "DFLT"
+},
+{
+"id": 6133,
+"name": "Gunjan Sharma",
+"team": "Uttarakhand State Team",
+"teamCode": "UK",
+"jersey": null,
+"matchUp": "F",
+"city": "Dehradun",
+"role": "DFLT"
+},
+{
+"id": 6132,
+"name": "Kashmira",
+"team": "Uttarakhand State Team",
+"teamCode": "UK",
+"jersey": null,
+"matchUp": "F",
+"city": "Dehradun",
+"role": "DFLT"
+},
+{
+"id": 6129,
+"name": "Khushi",
+"team": "Uttarakhand State Team",
+"teamCode": "UK",
+"jersey": null,
+"matchUp": "F",
+"city": "Dehradun",
+"role": "DFLT"
+},
+{
+"id": 6144,
+"name": "Mahesh Arya",
+"team": "Uttarakhand State Team",
+"teamCode": "UK",
+"jersey": null,
+"matchUp": "M",
+"city": "Dehradun",
+"role": "DFLT"
+},
+{
+"id": 2381,
+"name": "Mohit Rawat",
+"team": "Uttarakhand State Team",
+"teamCode": "UK",
+"jersey": 13,
+"matchUp": "M",
+"city": "NEW DELHI",
+"role": "DFLT"
+},
+{
+"id": 6140,
+"name": "Monu kumar",
+"team": "Uttarakhand State Team",
+"teamCode": "UK",
+"jersey": null,
+"matchUp": "M",
+"city": "Dehradun",
+"role": "DFLT"
+},
+{
+"id": 6141,
+"name": "Neeraj kumar",
+"team": "Uttarakhand State Team",
+"teamCode": "UK",
+"jersey": null,
+"matchUp": "M",
+"city": "Rudraprayag",
+"role": "DFLT"
+},
+{
+"id": 6128,
+"name": "Neha",
+"team": "Uttarakhand State Team",
+"teamCode": "UK",
+"jersey": null,
+"matchUp": "F",
+"city": "Dehradun",
+"role": "DFLT"
+},
+{
+"id": 6130,
+"name": "Pallavi Chauhan",
+"team": "Uttarakhand State Team",
+"teamCode": "UK",
+"jersey": null,
+"matchUp": "F",
+"city": "Dehradun",
+"role": "DFLT"
+},
+{
+"id": 6090,
+"name": "Pawan SIngh  Mehta",
+"team": "Uttarakhand State Team",
+"teamCode": "UK",
+"jersey": null,
+"matchUp": "M",
+"city": "Dehradun",
+"role": "DFLT"
+},
+{
+"id": 6138,
+"name": "Satish kumar",
+"team": "Uttarakhand State Team",
+"teamCode": "UK",
+"jersey": null,
+"matchUp": "M",
+"city": "Dehradun",
+"role": "DFLT"
+},
+{
+"id": 6127,
+"name": "Sheetal Chauhan",
+"team": "Uttarakhand State Team",
+"teamCode": "UK",
+"jersey": null,
+"matchUp": "F",
+"city": "Dehradun",
+"role": "DFLT"
+},
+{
+"id": 6134,
+"name": "Sonakshi",
+"team": "Uttarakhand State Team",
+"teamCode": "UK",
+"jersey": null,
+"matchUp": "F",
+"city": "Dehradun",
+"role": "DFLT"
+},
+{
+"id": 6135,
+"name": "Sunita",
+"team": "Uttarakhand State Team",
+"teamCode": "UK",
+"jersey": null,
+"matchUp": "F",
+"city": "Dehradun",
+"role": "DFLT"
+},
+{
+"id": 6145,
+"name": "Suraj Lal",
+"team": "Uttarakhand State Team",
+"teamCode": "UK",
+"jersey": null,
+"matchUp": "M",
+"city": "Dehradun",
+"role": "DFLT"
+},
+{
+"id": 6137,
+"name": "Vikas Rawat",
+"team": "Uttarakhand State Team",
+"teamCode": "UK",
+"jersey": null,
+"matchUp": "M",
+"city": "Uttarkashi",
+"role": "DFLT"
+},
+{
+"id": 6103,
+"name": "Abhishek .",
+"team": "West Bengal",
+"teamCode": "WB",
+"jersey": null,
+"matchUp": "M",
+"city": "Kolkata",
+"role": "DFLT"
+},
+{
+"id": 1947,
+"name": "Adwitiya Dawn",
+"team": "West Bengal",
+"teamCode": "WB",
+"jersey": 2,
+"matchUp": "F",
+"city": "Kolkata",
+"role": "DFLT"
+},
+{
+"id": 6106,
+"name": "Aman Falor",
+"team": "West Bengal",
+"teamCode": "WB",
+"jersey": null,
+"matchUp": "M",
+"city": "Kolkata",
+"role": "DFLT"
+},
+{
+"id": 6027,
+"name": "Anish Mukherjee",
+"team": "West Bengal",
+"teamCode": "WB",
+"jersey": null,
+"matchUp": "M",
+"city": "Kolkata",
+"role": "DFLT"
+},
+{
+"id": 6107,
+"name": "ARJUN RAJ",
+"team": "West Bengal",
+"teamCode": "WB",
+"jersey": 99,
+"matchUp": "M",
+"city": "KOLKATA",
+"role": "DFLT"
+},
+{
+"id": 6112,
+"name": "Debarshi Ghosh",
+"team": "West Bengal",
+"teamCode": "WB",
+"jersey": null,
+"matchUp": "M",
+"city": "Kolkata",
+"role": "DFLT"
+},
+{
+"id": 3349,
+"name": "Dev Agarwal",
+"team": "West Bengal",
+"teamCode": "WB",
+"jersey": 11,
+"matchUp": "M",
+"city": "Delhi",
+"role": "CAP"
+},
+{
+"id": 2140,
+"name": "Dhrthi Bhat",
+"team": "West Bengal",
+"teamCode": "WB",
+"jersey": 15,
+"matchUp": "F",
+"city": "Kolkata",
+"role": "SCAP"
+},
+{
+"id": 4017,
+"name": "Dwija Vashisht",
+"team": "West Bengal",
+"teamCode": "WB",
+"jersey": 11,
+"matchUp": "F",
+"city": "Bengaluru",
+"role": "DFLT"
+},
+{
+"id": 6111,
+"name": "Hiteshi Ajmera",
+"team": "West Bengal",
+"teamCode": "WB",
+"jersey": null,
+"matchUp": "F",
+"city": "Kolkata",
+"role": "DFLT"
+},
+{
+"id": 6108,
+"name": "Joel Mathew",
+"team": "West Bengal",
+"teamCode": "WB",
+"jersey": null,
+"matchUp": "M",
+"city": "Kolkata ",
+"role": "DFLT"
+},
+{
+"id": 3557,
+"name": "Katta Shriya",
+"team": "West Bengal",
+"teamCode": "WB",
+"jersey": 4,
+"matchUp": "F",
+"city": "Chennai",
+"role": "DFLT"
+},
+{
+"id": 6099,
+"name": "Kunal  Mundhra",
+"team": "West Bengal",
+"teamCode": "WB",
+"jersey": null,
+"matchUp": "M",
+"city": "Kolkata",
+"role": "DFLT"
+},
+{
+"id": 2350,
+"name": "MANINI Bansal",
+"team": "West Bengal",
+"teamCode": "WB",
+"jersey": 48,
+"matchUp": "F",
+"city": "Bangalore",
+"role": "DFLT"
+},
+{
+"id": 6114,
+"name": "Palak Tibrewal",
+"team": "West Bengal",
+"teamCode": "WB",
+"jersey": 18,
+"matchUp": "F",
+"city": "Kolkata",
+"role": "DFLT"
+},
+{
+"id": 6097,
+"name": "Puneet  Mishra",
+"team": "West Bengal",
+"teamCode": "WB",
+"jersey": null,
+"matchUp": "M",
+"city": "Kolkata",
+"role": "DFLT"
+},
+{
+"id": 5382,
+"name": "Saranya  Ilangovan",
+"team": "West Bengal",
+"teamCode": "WB",
+"jersey": 24,
+"matchUp": "F",
+"city": "Auroville,Pondicherry .",
+"role": "DFLT"
+},
+{
+"id": 6100,
+"name": "Seemantika Banerjee",
+"team": "West Bengal",
+"teamCode": "WB",
+"jersey": 28,
+"matchUp": "F",
+"city": "Kolkata",
+"role": "DFLT"
+},
+{
+"id": 6101,
+"name": "Shaurya Singh",
+"team": "West Bengal",
+"teamCode": "WB",
+"jersey": null,
+"matchUp": "M",
+"city": "Kolkata",
+"role": "DFLT"
+},
+{
+"id": 6102,
+"name": "Shreyas Chakraborty",
+"team": "West Bengal",
+"teamCode": "WB",
+"jersey": 7,
+"matchUp": "M",
+"city": "KOLKATA",
+"role": "DFLT"
+},
+{
+"id": 3183,
+"name": "Siddhi  Gadodia",
+"team": "West Bengal",
+"teamCode": "WB",
+"jersey": 13,
+"matchUp": "F",
+"city": "Hyderabad ",
+"role": "CAP"
+},
+{
+"id": 6110,
+"name": "Yash  Singh",
+"team": "West Bengal",
+"teamCode": "WB",
+"jersey": 15,
+"matchUp": "M",
+"city": "Kolkata",
+"role": "DFLT"
+}
+]
