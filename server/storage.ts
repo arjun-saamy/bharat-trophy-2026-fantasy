@@ -31,7 +31,7 @@ CREATE TABLE IF NOT EXISTS settings (
   pts_block INTEGER NOT NULL DEFAULT 4, pts_callahan INTEGER NOT NULL DEFAULT 8,
   pts_turnover INTEGER NOT NULL DEFAULT -2, pts_game INTEGER NOT NULL DEFAULT 1,
   pts_team_win INTEGER NOT NULL DEFAULT 2, pts_spirit INTEGER NOT NULL DEFAULT 5,
-  admin_pin TEXT NOT NULL DEFAULT 'bharat26'
+  admin_pin TEXT NOT NULL DEFAULT 'change-me'
 );
 `);
 
@@ -61,7 +61,14 @@ function seed() {
     void insert;
   }
   const s = db.select().from(settings).where(eq(settings.id, 1)).get();
-  if (!s) db.insert(settings).values({ id: 1 }).run();
+  const envPin = process.env.ADMIN_PIN?.trim();
+  if (!s) {
+    db.insert(settings).values({ id: 1, ...(envPin ? { adminPin: envPin } : {}) }).run();
+  } else if (envPin && s.adminPin !== envPin) {
+    // ADMIN_PIN acts as the recovery override: whatever the deployment sets on
+    // boot wins, so a forgotten or tampered PIN can never lock the organiser out.
+    db.update(settings).set({ adminPin: envPin }).where(eq(settings.id, 1)).run();
+  }
 }
 seed();
 

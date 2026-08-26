@@ -51,7 +51,7 @@ export const settings = sqliteTable('settings', {
   ptsGame: integer('pts_game').notNull().default(1),
   ptsTeamWin: integer('pts_team_win').notNull().default(2),
   ptsSpirit: integer('pts_spirit').notNull().default(5),
-  adminPin: text('admin_pin').notNull().default('trophy26x9'),
+  adminPin: text('admin_pin').notNull().default('change-me'),
 });
 
 export const insertEntrySchema = createInsertSchema(entries).omit({
